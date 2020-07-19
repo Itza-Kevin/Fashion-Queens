@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+#contatti{
+  background-color:#F4E0EE;
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color:#020202;
+  text-decoration: none;
+}
+
+ 
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
+    width: 100%;
+    height: 300px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+	
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 350px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
+    height: 400px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
